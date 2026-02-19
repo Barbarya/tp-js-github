@@ -10,7 +10,8 @@ function fizzBuzz(n) {
         } else {
             str = n;
         }
+
+        console.log(str);
     }
 
-    console.log(str);
 }
