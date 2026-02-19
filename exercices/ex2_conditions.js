@@ -11,7 +11,7 @@ function fizzBuzz(n) {
             str = n;
         }
 
-        console.log(str);
+        console.log(`${str}`);
     }
 
 }
