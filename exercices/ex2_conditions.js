@@ -1,6 +1,6 @@
 function fizzBuzz(n) {
-    let str ;
-    for (let i = 0 ; i <= n ; i++) {
+    let str, i;
+    for (i = 1 ; i <= n ; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
             str = "FizzBuzz";
         } else if (i % 3 === 0){
@@ -11,7 +11,7 @@ function fizzBuzz(n) {
             str = n;
         }
 
-        console.log(`${str}`);
+        console.log(str);
     }
 
 }
