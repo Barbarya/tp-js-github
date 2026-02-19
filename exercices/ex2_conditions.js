@@ -12,5 +12,5 @@ function fizzBuzz(n) {
         }
     }
 
-    return str;
+    console.log(str);
 }
