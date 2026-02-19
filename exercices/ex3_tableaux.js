@@ -1,7 +1,7 @@
 let notes = [12, 8, 15, 10, 7];
-let bst = 0, nbr = 0, som = 0;
+let bst = 0, nbr = 0, som = 0, i;
 
-for (let i = 1; i <= notes.length; i++) {
+for (i = 0; i < notes.length; i++) {
     
     som += notes[i];
 
