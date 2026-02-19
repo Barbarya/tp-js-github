@@ -1,5 +1,5 @@
 let notes = [12, 8, 15, 10, 7];
-let moy = 0, bst = 0, nbr = 0, som = 0;
+let bst = 0, nbr = 0, som = 0;
 
 for (let i = 1; i <= notes.length; i++) {
     
@@ -15,7 +15,7 @@ for (let i = 1; i <= notes.length; i++) {
 
 }
 
-moy = som / notes.length ;
+let moy = som / notes.length;
 
 console.log (`la moyenne des notes est ${moy}`);
 console.log (`La meilleure note est ${bst}`);
