@@ -1,17 +1,17 @@
 function fizzBuzz(n) {
-    let str, i;
+    let i;
     for (i = 1 ; i <= n ; i++) {
         if (i % 3 === 0 && i % 5 === 0) {
-            str = "FizzBuzz";
+            console.log("FizzBuzz");
         } else if (i % 3 === 0){
-            str = "Fizz";
+            console.log("Fizz");
         } else if (i % 5 === 0){
-            str = "Buzz";
+            console.log("Buzz");
         } else {
-            str = n;
+            console.log(i);
         }
-
-        console.log(str);
     }
-
+    return 0;
 }
+
+fizzBuzz(15);
